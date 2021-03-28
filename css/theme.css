@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+}
+div {
+    background-color: #d8d8d8;
+}
+aside {
+    background-color: #d8d8d8;
+}
+/* edit it  */
+@media only screen and (max-width: 767px) {
+
+div {
+    border: 1px solid #4e4e4e;
+}
+.b { 
+    border: 1px solid #4e4e4e;
+    border-top: none;
+}
+.c , .d ,.i{
+    border-top: none;
+
+}
+.e , .f ,.g, .h{
+    border-top: none;
+}
+.f ,.h {
+    border-left: none;
+}
+.i {
+    background-color: #d8d8d8;
+}
+}
