@@ -1,52 +1,115 @@
-/* edit it  */
+/* for mobile  */
 @media only screen and (max-width: 767px) {
-.a {
-    width: 480px;
-    height: 75px;
-    line-height: 75px;
-}
-.b {
-    width: 480px;
-    height: 150px;
-    line-height: 150px;
-}
-.c {
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-}
-.d {
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
+   
+    .a {
+        width: 480px;
+        height: 75px;
+        line-height: 75px;
+    }
+
+    .b {
+        width: 480px;
+        height: 150px;
+        line-height: 150px;
+    }
+
+    .c {
+        width: 480px;
+        height: 125px;
+        line-height: 125px;
+    }
+
+    .d {
+        width: 480px;
+        height: 125px;
+        line-height: 125px;
+    }
+
+    .e ,.g {
+        float: left;
+        width: 240px;
+        height: 250px;
+        line-height: 250px;
+    }
+
+    .f , .h{
+        float: right;
+        width: 240px;
+        height: 250px;
+        line-height: 250px;
+    }
+
+    .i {
+        clear: both;
+        width: 480px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .left , .right {
+        display: block;
+        width: 480px;
+    }
+
 }
 
-.e ,.g {
-    float: left;
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-}
-.f , .h{
-    float: right;
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-}
-.i {
-    clear: both;
-    width: 480px;
-    height: 80px;
-    line-height: 80px;
-}
-.left , .right {
-    display: block;
-    width: 480px;
-}
+/* for desktops  */
+@media only screen and (min-width: 768px) {
+ 
+    .a {
+        width: 960px;
+        height: 100px;
+        line-height: 100px;
+    }
 
+    .b {
+        width: 200px;
+        height: 600px;
+        line-height: 600px;
+        float: left;
+    }
 
+    .c {
+        width: 380px;
+        height: 200px;
+        line-height: 200px;
+        float: left;
+    }
 
+    .d {
+        width: 380px;
+        height: 200px;
+        line-height: 200px;
+        float: right;
+    }
 
+    .left {
+        float: left;
+    }
 
+    .right {
+        float: right;
+    }
 
+    .i {
+        float: right;
+        width: 760px;
+        height: 150px;
+        line-height: 150px;
+    }
+
+    .e ,.g {
+        float: left;
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+    }
+
+    .f , .h{
+        float: right;
+        width: 190px;
+        height: 250px;
+        line-height: 250px;
+    }
+    
 }

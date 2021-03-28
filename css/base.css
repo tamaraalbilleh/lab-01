@@ -2,18 +2,31 @@
     box-sizing: border-box;
     text-align: center;
 }
-/* edit it  */
+
+/* for mobile  */
 @media only screen and (max-width: 767px) {
-body {
-    margin: auto;
-    align-items: center;
-}
-main {
-    margin: auto;
-    width: 480;
-    height: 767px;
-    align-items: center;
+        body {
+        margin: auto;
+        align-items: center;
+    }
+
+    main {
+        margin: auto;
+        width: 480px;
+        align-items: center;
+    }
     
 }
-    
+/* for desktops  */
+@media only screen and (min-width: 768px) {
+    main {
+        margin: auto;
+        width: 960px;
+        align-items: center;
+    }
+
+    body {
+        margin: auto;
+        align-items: center;
+    }
 }
