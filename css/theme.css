@@ -9,8 +9,11 @@ aside {
 }
 
 /* for mobile  */
-@media only screen and (max-width: 767px) {
-
+@media only screen and (max-width: 480px) {
+    .a ,.i {
+        background-color: #025955;
+        color: white;
+    }
     div {
         border: 1px solid #4e4e4e;
     }
@@ -18,29 +21,45 @@ aside {
     .b { 
         border: 1px solid #4e4e4e;
         border-top: none;
+        background-color: #00917c;
     }
 
     .c , .d ,.i{
         border-top: none;
     }
+    .c,.d {
+        background-color: #00b499;
+        color: #433520;
+    }
 
     .e , .f ,.g, .h{
         border-top: none;
+        
+        background-color: #fde8cd;
+        color: #433520;
+
     }
 
     .f ,.h {
         border-left: none;
+        border-right: none;
+    }
+    .g ,.e {
+        border-left: none;
+        
     }
 
-    .i {
-        background-color: #d8d8d8;
-    }
+    
 
 }
 
 /* for desktops  */
-@media only screen and (min-width: 768px) {
- 
+@media only screen and  (min-width: 768px){
+    .a ,.i{
+        background-color: #004445;
+        color: white;
+    }
+
     div {
         border: 1px solid #4e4e4e;
     }
@@ -49,14 +68,57 @@ aside {
         border: 1px solid #4e4e4e;
         border-top: none;
         border-right: none;
+        background-color: #2c786c;
+        color:  white;
+    }
+    .c ,.d {
+        background-color: #f8b400;
+        color : white;
     }
 
-    .c , .d ,.i ,.e ,.f, .g , .h{
+    .c , .i ,.e ,.f, .g , .h{
         border-top: none;
     }
+.e,.f,.g,.h {
+    background-color: #faf5e4;
+    color: #433520;
 
-    .d , .f , .h ,.g {
+    ;
+}
+    .d , .f , .h ,.g,.e {
         border-left:none ;
     }
 
+}
+/* for tablet */
+@media only screen and (max-width: 767px) and (min-width:481px){
+    div {
+        border: 1px solid #0000007c;
+    }
+    .c ,.d {
+        background-color: #ff4a7d;
+        color : white;
+    }
+    .a ,.i{
+        background-color: #ed1250;
+        color: white;
+    }
+    .e,.f,.g,.h {
+        background-color: #fff6da;
+        color: #433520;
+    
+    }
+    .c , .i ,.e ,.f, .g , .h{
+        border-top: none;
+    }
+    .b {
+        border: 1px solid #0000007c;
+        border-top: none;
+        border-right: none;
+        background-color: #fbc99d;
+        color: #433520;
+    }
+    .d , .f , .h ,.g,.e {
+        border-left:none ;
+    }
 }
