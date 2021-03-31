@@ -8,25 +8,55 @@
         body {
         margin: auto;
         align-items: center;
+        padding: 20px;
     }
 
     main {
         margin: auto;
-        width: 480px;
+        width: 100%;
         align-items: center;
+        height: 100%;
+        max-width:767px;
+        max-height: 1055px‬;
+        min-width: 480px;
+       
     }
     
 }
+
+
 /* for desktops  */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
     main {
         margin: auto;
-        width: 960px;
         align-items: center;
+        max-width: 960px;
+        /* display: flex; */
+
     }
 
     body {
+        padding :30;       
         margin: auto;
         align-items: center;
+
     }
 }
+
+
+/* @media only screen and (max-width: 480px) {
+    body {
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    max-width:480px;
+    min-width: 320px;
+} 
+
+} */
